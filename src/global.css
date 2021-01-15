@@ -1,0 +1,26 @@
+.navbar a {
+  font-size: 1.5em;
+}
+.selected, .navbar-brand a, .navbar-brand a:hover, .navbar-nav a:hover {
+  color: rgb(232, 230, 227) !important;
+  text-decoration: none;
+}
+.navbar-nav {
+  margin-left: auto !important;
+  margin-bottom: 100px;
+}
+.navbar-nav a {
+  color: rgba(232, 230, 227, 0.75);
+  margin: 0 50px 0 50px;
+}
+.content {
+  margin-top: 150px;
+}
+.fadeIn {
+  opacity: 0;
+  animation: fade 4s forwards;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
