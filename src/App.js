@@ -17,6 +17,7 @@ export default function App() {
         const removedBack = removedFront.substring(0, removedFront.length - 1)
         setPhotos(JSON.parse(removedBack).photos.photo)
       })
+      .catch(err => console.log(err))
       .finally(() => setLoading(false))
   }, [tags])
 
